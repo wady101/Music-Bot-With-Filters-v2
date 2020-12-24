@@ -71,9 +71,11 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
                     align="center"
                 />
             </a></div>
+            
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2?ref=badge_large)
+
 ## Credits
 
 [@eritislami](https://github.com/eritislami/) For the Reacting system to messages, great Idea i adopted that [@iCrawl/evobot](https://github.com/eritislami/evobot)
-
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2?ref=badge_large)
+[@Tomato6966](https://github.com/Tomato6966/) For the great bot!!
