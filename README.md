@@ -1,5 +1,4 @@
 # Harmony
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2?ref=badge_shield)
 
 
 An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like Bassboost, Nightcore, etc. and reaction interactivity. Based on ytdl-core with discord.js Guide Handler. With ideas from eritislami 
@@ -71,9 +70,6 @@ It is important that you fill in every item of the JSON FILE! every emoji used i
                     align="center"
                 />
             </a></div>
-            
-## License
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnavaneethkm004%2FMusic-Bot-With-Filters-v2?ref=badge_large)
 
 ## Credits
 
