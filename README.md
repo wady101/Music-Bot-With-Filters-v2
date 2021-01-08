@@ -5,7 +5,7 @@ An advanced Music Bot, with 30+ Radio Stations, with capability of filters, like
 
 ### **IMPORTANT!** 
 
-If you decide to use this Bot, [check out this Github of mine first](https://github.com/navaneethkm004/Music-Bot-With-Filters) cause this is the same exact Bot with standard Discord/Unicode Emojis, which means that you can just simply use it instantly without changing the emojis!
+If you decide to use this Bot, [check out this Github repo first](https://github.com/navaneethkm004/Music-Bot-With-Filters) cause this is the same exact Bot with standard Discord/Unicode Emojis, which means that you can just simply use it instantly without changing the emojis!
 
 #### Commands:
 
