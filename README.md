@@ -38,7 +38,9 @@ If you decide to use this Bot, [check out this Github repo first](https://github
  
  **4.** Install all of the packages with **`npm install`**     |  the packages are   **`npm install node.js @discordjs/opus discord.js ffmpeg-static figlet lyrics-finder string-progressbar ytdl-core discord-ytdl-core youtube-sr`**
  
- **5.** start the bot with **`node index.js`**
+ **5.** start the bot with **`node index.js`**<br/>
+ 
+ [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/Music-Bot-With-Filters-v2)](https://repl.it/github/navaneethkm004/Music-Bot-With-Filters-v2)</br>
 
 ## Usage - config.json
 
