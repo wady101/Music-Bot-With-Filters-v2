@@ -143,3 +143,4 @@ function delay(delayInms) {
      resolve(2);
    }, delayInms);
  });
+}
