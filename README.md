@@ -42,7 +42,7 @@ If you decide to use this Bot, [check out this Github repo first](https://github
  
  [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/Music-Bot-With-Filters-v2)](https://repl.it/github/navaneethkm004/Music-Bot-With-Filters-v2)</br>
 
-### **IMPORTANT!** 
+### TUTORIAL 
 
 Watch tutorial on YouTube!!<br/>
 
