@@ -42,6 +42,14 @@ If you decide to use this Bot, [check out this Github repo first](https://github
  
  [![Run on Repl.it](https://repl.it/badge/github/navaneethkm004/Music-Bot-With-Filters-v2)](https://repl.it/github/navaneethkm004/Music-Bot-With-Filters-v2)</br>
 
+### **IMPORTANT!** 
+
+Watch tutorial on YouTube!!<br/>
+
+[https://img.nkmrepl.repl.co/vdYS0.png](https://www.youtube.com/watch?v=IPv1uWSKC-Q)<br/>
+
+Please subscribe my YT channel and like the video.
+
 ## Usage - config.json
 
 ```json
