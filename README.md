@@ -46,7 +46,7 @@ If you decide to use this Bot, [check out this Github repo first](https://github
 
 Watch tutorial on YouTube!!<br/>
 
-[<img src="https://img.nkmrepl.repl.co/vdYS0.png" width="917" height="515">](https://www.youtube.com/watch?v=IPv1uWSKC-Q)<br/>
+[<img src="https://github.com/navaneethkm004/my-images/blob/main/Yellow%20Simple%20Education%20YouTube%20Channel%20Art.png?raw=true" width="917" height="515">](https://www.youtube.com/watch?v=IPv1uWSKC-Q)<br/>
 
 Please subscribe my YT channel and like the video.
 
