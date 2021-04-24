@@ -15,13 +15,13 @@ const cooldowns = new Collection();
 const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, `\\$&`);
 
 //this fires when the BOT STARTS DO NOT TOUCH
-client.on(`ready`, () => {	
+client.on(`ready`, () => {
 
-   
+
    ///////////////////////////////
     ////////////IFCHEMPTY//////////
         //remove everything in between those 2 big comments if you want to disable that the bot leaves when ch. or queue gets empty!
-        setInterval(() => { 
+        setInterval(() => {
           let member;
         client.guilds.cache.forEach(async guild =>{
         await delay(15);
@@ -29,16 +29,17 @@ client.on(`ready`, () => {
         //if not connected
           if(!member.voice.channel)
           return;
-        //if alone 
-        if (member.voice.channel.members.size === 1) 
+        //if alone
+        if (member.voice.channel.members.size === 1)
         { return member.voice.channel.leave(); }
       });
-      
 
-      client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "STREAMING",
+
+      //client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "STREAMING",
+      client.user.setActivity(`${PREFIX}help | Fumo's Music`, { type: "STREAMING",
       url: "https://www.twitch.tv/nocopyrightsounds"});
-   
-  
+
+
       }, (5000));
       ////////////////////////////////
       ////////////////////////////////
@@ -51,7 +52,7 @@ client.on(`ready`, () => {
       console.log(data)
       console.log(`═════════════════════════════════════════════════════════════════════════════`);
     })
-   
+
 });
 //DO NOT TOUCH
 client.on(`warn`, (info) => console.log(info));
@@ -73,8 +74,8 @@ for (const file of commandFiles) {
 //COMMANDS //DO NOT TOUCH
 client.on(`message`, async (message) => {
   if (message.author.bot) return;
-  
-  //getting prefix 
+
+  //getting prefix
   let prefix = await db.get(`prefix_${message.guild.id}`)
   //if not prefix set it to standard prefix in the config.json file
   if(prefix === null) prefix = PREFIX;
@@ -82,7 +83,7 @@ client.on(`message`, async (message) => {
   //information message when the bot has been tagged
   if(message.content.includes(client.user.id)) {
     message.reply(new Discord.MessageEmbed().setColor("#F0EAD6").setAuthor(`${message.author.username}, My Prefix is ${prefix}, to get started; type ${prefix}help`, message.author.displayAvatarURL({dynamic:true})));
-  } 
+  }
   //An embed announcement for everyone but no one knows so fine ^w^
   if(message.content.startsWith(`${prefix}embed`)){
     //define saymsg
@@ -121,7 +122,7 @@ client.on(`message`, async (message) => {
      const timeLeft = (expirationTime - now) / 1000;
      return message.reply(
       new MessageEmbed().setColor("#F0EAD6")
-      .setTitle(`:x: Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)    
+      .setTitle(`:x: Please wait \`${timeLeft.toFixed(1)} seconds\` before reusing the \`${prefix}${command.name}\`!`)
      );
    }
  }

@@ -37,7 +37,7 @@ module.exports = {
       return attentionembed(message, `You must be in the same Voice Channel as me`);
     //Define all filters with ffmpeg    https://ffmpeg.org/ffmpeg-filters.html
     const filters = [
-      'bass=g=20,dynaudnorm=f=200',//bassboost
+      'bass=g=10,dynaudnorm=f=150',//bassboost
       'apulsator=hz=0.08', //8D
       'aresample=48000,asetrate=48000*0.8',//vaporwave
       'aresample=48000,asetrate=48000*1.25',//nightcore
